@@ -1,0 +1,16 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<suite name="Simple test epam.com">
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    </listeners>
+    <test name="epam">
+        <classes>
+            <class name="TestPastEvents"/>
+        </classes>
+    </test>
+    <test name="LP">
+        <classes>
+            <class name="TestLvivPolytechnic"/>
+        </classes>
+    </test>
+</suite>
